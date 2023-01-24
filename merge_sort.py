@@ -10,6 +10,7 @@ def merge(nums):
         j = 0
         k = 0
 
+        while i < len(left_nums) and j < len(right_nums):
 
 
 

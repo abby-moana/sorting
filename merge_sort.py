@@ -16,6 +16,7 @@ def merge(nums):
                 i += 1
             else:
                 nums[k] = right_nums[j]
+                j += 1
 
 
 

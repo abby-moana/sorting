@@ -11,6 +11,7 @@ def merge(nums):
         k = 0
 
         while i < len(left_nums) and j < len(right_nums):
+            if left_nums[i] < right_nums[j]:
 
 
 

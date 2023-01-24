@@ -20,6 +20,7 @@ def merge(nums):
             k += 1
 
         while i < len(left_nums):
+            nums[k] = left_nums[i]
 
 
 nums = [3, 7, 20, 47, 77, 82, 18, 72, 54, 96]

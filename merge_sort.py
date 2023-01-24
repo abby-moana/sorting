@@ -12,7 +12,8 @@ def merge(nums):
 
         while i < len(left_nums) and j < len(right_nums):
             if left_nums[i] < right_nums[j]:
-
+                nums[k] = left_nums[i]
+                i
 
 
 nums = [3, 7, 20, 47, 77, 82, 18, 72, 54, 96]

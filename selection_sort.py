@@ -3,7 +3,9 @@ def sort(nums):
         minpos = i
         for j in range(i, 10):
             if nums[j] < nums[minpos]:
-                minpos
+                minpos = j
+
+        temp = nums[i]
 
 nums = [3, 7, 20, 47, 77, 82, 18, 72, 54, 96]
 sort(nums)

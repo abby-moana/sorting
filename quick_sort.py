@@ -1,6 +1,11 @@
 def quick(nums, left, right):
     if left < right:
         partition_pos = partition(nums, left, right)
+        quick(nums, left, partition_pos - 1)
+        quick(nums, partition_pos + 1, right)
+
+
+def partition(nums, left, right):
 
 
 

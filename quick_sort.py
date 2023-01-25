@@ -10,5 +10,8 @@ def partition(nums, left, right):
     j = right
     pivot = nums[right]
 
+    while i < j:
+
+
 
 nums = [3, 7, 20, 47, 77, 82, 18, 72, 54, 96]

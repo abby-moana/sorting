@@ -21,6 +21,7 @@ def partition(nums, left, right):
             nums[i], nums[j] = nums[j], nums[i]
 
     if nums[i] > pivot:
+        nums[i], nums[right] = nums[right], nums[i]
 
 
 

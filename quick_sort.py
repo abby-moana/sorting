@@ -1,4 +1,5 @@
 def quick(nums, left, right):
+    if left < right:
 
 
 

@@ -23,6 +23,7 @@ def partition(nums, left, right):
     if nums[i] > pivot:
         nums[i], nums[right] = nums[right], nums[i]
 
+    return i
 
 
 nums = [3, 7, 20, 47, 77, 82, 18, 72, 54, 96]

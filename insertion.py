@@ -5,6 +5,7 @@ def insertion(nums):
             nums[j-1], nums[j] = nums[j], nums[j-1]
             j -= 1
 
+            print(nums)
 
 
 nums = [3, 7, 20, 47, 77, 82, 18, 72, 54, 96]
